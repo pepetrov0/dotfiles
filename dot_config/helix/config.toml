@@ -1,0 +1,31 @@
+theme = "dark_plus"
+
+[editor]
+line-number = "relative"
+auto-save = true
+true-color = true
+bufferline = "multiple"
+color-modes = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+
+[editor.whitespace.render]
+space = "none"
+tab = "all"
+newline = "none"
+nbsp = "all"
+
+[editor.indent-guides]
+render = true
+character = "┆"
+skip-levels = 1
