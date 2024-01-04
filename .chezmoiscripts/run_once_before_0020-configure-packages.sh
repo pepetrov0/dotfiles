@@ -12,10 +12,6 @@ yay -S --needed --noconfirm \
   fish \
   helix \
   man \
-  meson \
-  ninja \
-  nodejs \
-  npm \
   tmux \
   ttf-iosevka-nerd \
   ttf-noto-nerd \
