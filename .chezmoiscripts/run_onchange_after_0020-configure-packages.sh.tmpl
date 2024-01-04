@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# install packages
+yay -S --needed --noconfirm {{ range .packages.install }}{{ . }} {{ end }}
+
+# uninstall packages
+{{ range .packages.uninstall -}}
+yay -Qi {{ . | quote }} 2> /dev/null && yay -Rns --noconfirm {{ . | quote }} || true
+{{ end }}
