@@ -2,6 +2,14 @@ grub:
   theme: tela
   icon: color
   screen: 1080p
+gnome:
+  centerNewWindows: true
+  buttonLayout: appmenu:minimize,maximize,close
+  fonts:
+    default: NotoSans Nerd Font Regular 11
+    document: NotoSans Nerd Font Regular 11
+    monospace: Iosevka Nerd Font Propo Medium 12
+    titlebar: NotoSans Nerd Font Semi-Bold 11
 packages:
   install:
     - bat

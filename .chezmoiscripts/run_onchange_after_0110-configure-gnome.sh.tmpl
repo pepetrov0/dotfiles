@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# window settings
+gsettings set org.gnome.mutter center-new-windows {{ .gnome.centerNewWindows }}
+gsettings set org.gnome.desktop.wm.preferences button-layout {{ .gnome.buttonLayout | quote }}
+
+# fonts
+gsettings set org.gnome.desktop.interface font-name {{ .gnome.fonts.default | quote }}
+gsettings set org.gnome.desktop.interface document-font-name {{ .gnome.fonts.document | quote }}
+gsettings set org.gnome.desktop.interface monospace-font-name {{ .gnome.fonts.monospace | quote }}
+gsettings set org.gnome.desktop.wm.preferences titlebar-font {{ .gnome.fonts.titlebar | quote }}
