@@ -1,0 +1,9 @@
+.yay:
+  type: git-repo
+  url: https://aur.archlinux.org/yay-bin.git
+.tmux/plugins/tpm:
+  type: git-repo
+  url: https://github.com/tmux-plugins/tpm
+.grub2-themes:
+  type: git-repo
+  url: https://github.com/vinceliuice/grub2-themes

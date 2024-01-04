@@ -1,3 +1,7 @@
+grub:
+  theme: tela
+  icon: color
+  screen: 1080p
 packages:
   install:
     - bat

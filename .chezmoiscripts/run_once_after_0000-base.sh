@@ -4,10 +4,6 @@
 sudo pacman -S --needed --noconfirm git base-devel
 
 # install yay
-if [ ! -d yay-bin ]; then
-  git clone https://aur.archlinux.org/yay-bin.git
-fi
-  
-pushd yay-bin
+pushd .yay
 makepkg -si --needed --noconfirm
 popd

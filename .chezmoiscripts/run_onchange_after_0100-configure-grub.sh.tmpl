@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pushd .grub2-themes
+sudo bash install.sh -t {{ .grub.theme }} -i {{ .grub.icon }} -s {{ .grub.screen }} -b
+popd
