@@ -56,3 +56,7 @@ auto-format = true
 name = "cmake"
 formatter = { command = 'cmake-format', args = ["-"] }
 auto-format = true
+
+[[language]]
+name = "go"
+indent = { tab-width = 3, unit = "\t" }
